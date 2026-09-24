@@ -291,10 +291,6 @@ hasamex-expert-call-intelligence/
 
 ├── README.md
 
-├── .env.example
-
-├── .gitignore
-
 │
 
 ├── data/
@@ -311,11 +307,11 @@ hasamex-expert-call-intelligence/
 
 └── src/
 
-&#x20;   ├── parser.py
+         ├── parser.py
 
-&#x20;   ├── rag\_pipeline.py
+         ├── rag\_pipeline.py
 
-&#x20;   └── groq\_client.py
+         └── groq\_client.py
 
 ```
 
