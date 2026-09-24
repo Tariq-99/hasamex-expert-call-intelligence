@@ -1,4 +1,4 @@
-\# Hasamex Expert Call Intelligence Assistant
+Hasamex Expert Call Intelligence Assistant
 
 
 
@@ -14,7 +14,7 @@ The application analyzes calls from France, Germany, and the United Kingdom. It 
 
 
 
-\## Features
+Features
 
 
 
@@ -38,7 +38,7 @@ The application analyzes calls from France, Germany, and the United Kingdom. It 
 
 
 
-\## Case Requirements Covered
+Case Requirements Covered
 
 
 
@@ -113,7 +113,7 @@ Streamlit Interface + Source Evidence Cards
 
 
 
-\### 1. Transcript parsing
+1. Transcript parsing
 
 
 
@@ -145,7 +145,7 @@ This metadata makes every generated answer traceable to the source transcript.
 
 
 
-\### 2. Retrieval
+2. Retrieval
 
 
 
@@ -157,7 +157,7 @@ FAISS performs semantic similarity search to retrieve the most relevant evidence
 
 
 
-\### 3. Grounded generation
+3. Grounded generation
 
 
 
@@ -183,7 +183,7 @@ The retrieved transcript chunks are sent to Groq with strict instructions to:
 
 
 
-\### 4. Evidence verification
+4. Evidence verification
 
 
 
@@ -195,7 +195,7 @@ The Streamlit interface displays the exact supporting transcript response below 
 
 
 
-\## Hallucination Controls
+Hallucination Controls
 
 
 
@@ -221,7 +221,7 @@ This project reduces hallucinations through several safeguards:
 
 
 
-\## Scaling to 30+ Transcripts
+Scaling to 30+ Transcripts
 
 
 
@@ -249,7 +249,7 @@ To extend this prototype to a larger production dataset, the following improveme
 
 
 
-\## Technology Stack
+Technology Stack
 
 
 
@@ -275,7 +275,7 @@ To extend this prototype to a larger production dataset, the following improveme
 
 
 
-\## Project Structure
+Project Structure
 
 
 
@@ -321,11 +321,11 @@ hasamex-expert-call-intelligence/
 
 
 
-\## Installation and Setup
+Installation and Setup
 
 
 
-\### 1. Clone the repository
+1. Clone the repository
 
 
 
@@ -381,7 +381,7 @@ Then run the activation command again:
 
 
 
-\### 3. Install dependencies
+3. Install dependencies
 
 
 
@@ -393,7 +393,7 @@ pip install -r requirements.txt
 
 
 
-\### 4. Configure the Groq API key
+4. Configure the Groq API key
 
 
 
@@ -413,7 +413,7 @@ Do not upload the `.env` file to GitHub.
 
 
 
-\### 5. Add transcript files
+5. Add transcript files
 
 
 
@@ -445,7 +445,7 @@ Transcript\_3\_UK.txt
 
 
 
-\### 6. Run the application
+6. Run the application
 
 
 
@@ -473,11 +473,11 @@ http://localhost:8501
 
 
 
-\## How to Use the Application
+How to Use the Application
 
 
 
-\### Interview Guide
+Interview Guide
 
 
 
@@ -491,7 +491,7 @@ http://localhost:8501
 
 
 
-\### Cross-Call Themes
+Cross-Call Themes
 
 
 
@@ -503,7 +503,7 @@ http://localhost:8501
 
 
 
-\### Ask Across Transcripts
+Ask Across Transcripts
 
 
 
@@ -523,7 +523,7 @@ http://localhost:8501
 
 
 
-\## Source Data
+Source Data
 
 
 
@@ -543,31 +543,7 @@ The application uses three supplied expert-call transcripts:
 
 
 
-The interview guide focuses on robotic surgery adoption, adoption barriers, hospital economics, ROI, training, clinical outcomes, expected growth, and purchasing timelines.
-
-
-
-\---
-
-
-
-\## AI Use Disclosure
-
-
-
-AI tools were used for development support, debugging, and refining implementation ideas. The final application was reviewed, tested, and understood by the author. The author takes responsibility for the architecture, implementation, and technical decisions in this submission.
-
-
-
-\---
-
-
-
-\## Author
-
-
-
-\*\*Tariq Nazar\*\*
+Tariq Nazar
 
 
 
