@@ -89,23 +89,23 @@ Structured Evidence Records
 
 SentenceTransformer Embeddings
 
-     |
-     v
+      |
+      v
 
 FAISS Vector Search
 
-     |
-     v
+      |
+      v
 
 Relevant Evidence Chunks
 
-     |
-     v
+      |
+      v
 
 Groq LLM Grounded Answer Generation
 
-     |
-     v
+      |
+      v
 
 Streamlit Interface + Source Evidence Cards
 
