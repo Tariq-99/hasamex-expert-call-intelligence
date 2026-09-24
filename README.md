@@ -72,47 +72,40 @@ The application analyzes calls from France, Germany, and the United Kingdom. It 
 
 Raw Transcript Files
 
-&#x20;       |
-
-&#x20;       v
+      |
+      v
 
 Transcript Parser
 
-&#x20;       |
-
-&#x20;       v
+      |
+      v
 
 Structured Evidence Records
 
 (country, expert, role, timestamp, question, answer, source file)
 
-&#x20;       |
-
-&#x20;       v
+      |
+      v
 
 SentenceTransformer Embeddings
 
-&#x20;       |
-
-&#x20;       v
+     |
+     v
 
 FAISS Vector Search
 
-&#x20;       |
-
-&#x20;       v
+     |
+     v
 
 Relevant Evidence Chunks
 
-&#x20;       |
-
-&#x20;       v
+     |
+     v
 
 Groq LLM Grounded Answer Generation
 
-&#x20;       |
-
-&#x20;       v
+     |
+     v
 
 Streamlit Interface + Source Evidence Cards
 
