@@ -409,7 +409,6 @@ GROQ\_API\_KEY=your\_groq\_api\_key\_here
 
 
 
-Do not upload the `.env` file to GitHub.
 
 
 
